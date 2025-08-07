@@ -13,3 +13,5 @@
 *.lo
 *.o
 *.obj
+
+build
