@@ -4,3 +4,4 @@ channels:
   - defaults
 dependencies:
   - bioconda::savvy=2.1.0
+  - conda-forge::xz=5.8.1
