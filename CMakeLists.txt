@@ -39,7 +39,7 @@ add_executable(minimac4
         src/unique_haplotype.cpp src/unique_haplotype.hpp
         src/main.cpp)
 
-target_link_libraries(minimac4 savvy Threads::Threads)
+target_link_libraries(minimac4 savvy Threads::Threads omp)
 target_include_directories(minimac4 PRIVATE ${omp_SOURCE_DIR}/include)
 
 add_custom_target(manuals
