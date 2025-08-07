@@ -17,9 +17,18 @@ set(CMAKE_FIND_LIBRARY_SUFFIXES ".a;${CMAKE_FIND_LIBRARY_SUFFIXES}") # Prefer li
 #    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
 #endif()
 
+## Install OMP
+include(FetchContent)
+
+FetchContent_Declare(
+  omp
+  GIT_REPOSITORY https://github.com/jonathonl/omp.git
+  GIT_TAG v1.0.0
+)
+FetchContent_MakeAvailable(omp)
+
 
 find_package(Threads)
-find_library(OMPP_LIBRARY omp)
 find_package(savvy REQUIRED)
 
 add_executable(minimac4
@@ -30,7 +39,8 @@ add_executable(minimac4
         src/unique_haplotype.cpp src/unique_haplotype.hpp
         src/main.cpp)
 
-target_link_libraries(minimac4 savvy ${OMPP_LIBRARY} Threads::Threads)
+target_link_libraries(minimac4 savvy Threads::Threads)
+target_include_directories(minimac4 PRIVATE ${omp_SOURCE_DIR}/include)
 
 add_custom_target(manuals
                   COMMAND help2man --output "${CMAKE_BINARY_DIR}/minimac4.1" "${CMAKE_BINARY_DIR}/minimac4")
