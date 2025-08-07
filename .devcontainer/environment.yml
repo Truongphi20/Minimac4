@@ -1,0 +1,6 @@
+name: minimac4-dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bioconda::savvy=2.1.0
