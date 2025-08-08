@@ -22,7 +22,9 @@ add_library(minimac4_source dosage_writer.cpp
 )
 
 ## Link to header files
-target_include_directories(minimac4_source PRIVATE ${omp_SOURCE_DIR}/include)
+target_include_directories(minimac4_source PUBLIC ${omp_SOURCE_DIR}/include
+                                           PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}
+)
 
 ## Link to dependencies
-target_link_libraries(minimac4_source PRIVATE savvy Threads::Threads omp)
+target_link_libraries(minimac4_source PUBLIC savvy Threads::Threads omp)
