@@ -18,11 +18,11 @@ add_library(minimac4_source dosage_writer.cpp
                             input_prep.cpp
                             recombination.cpp
                             unique_haplotype.cpp
+                            imputation.cpp
 )
 
 ## Link to header files
-target_include_directories(minimac4_source PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/..
-                                           PRIVATE ${omp_SOURCE_DIR}/include)
+target_include_directories(minimac4_source PRIVATE ${omp_SOURCE_DIR}/include)
 
 ## Link to dependencies
 target_link_libraries(minimac4_source PRIVATE savvy Threads::Threads omp)
