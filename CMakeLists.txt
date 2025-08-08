@@ -45,7 +45,9 @@ target_include_directories(minimac4 PRIVATE ${omp_SOURCE_DIR}/include)
 add_custom_target(manuals
                   COMMAND help2man --output "${CMAKE_BINARY_DIR}/minimac4.1" "${CMAKE_BINARY_DIR}/minimac4")
 
+option(BUILD_TESTS "Build test cases" OFF)
 if(BUILD_TESTS)
+    set(CMAKE_BUILD_TYPE Debug)
     enable_testing()
     add_test(simple_test ${CMAKE_SOURCE_DIR}/test/simple-test.sh ${CMAKE_BINARY_DIR}/minimac4 m4_simple_test_output ${CMAKE_SOURCE_DIR}/test/input/ref_panel.vcf ${CMAKE_SOURCE_DIR}/test/input/tar_panel.vcf)
     add_test(haploid_and_diploid_test ${CMAKE_SOURCE_DIR}/test/simple-test.sh ${CMAKE_BINARY_DIR}/minimac4 m4_haploid_and_diploid_test_output ${CMAKE_SOURCE_DIR}/test/input/ref_panel_with_haploid_sample.vcf ${CMAKE_SOURCE_DIR}/test/input/tar_panel_with_haploid_sample.vcf)
