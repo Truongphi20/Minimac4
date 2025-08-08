@@ -17,7 +17,7 @@ int run_imputation_test(std::vector<std::string> compress_args)
     // Run main
     std::time_t start_time = std::time(nullptr);
     prog_args args;
-    args.parse(static_cast<int>(compress_args.size() + 1), cstrings.data());
+    args.parse(static_cast<int>(compress_args.size()), cstrings.data());
 
     if (args.help_is_set())
     {
