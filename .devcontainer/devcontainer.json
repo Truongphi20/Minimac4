@@ -8,7 +8,10 @@
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/miniforge:2": {}
 	},
-	"postCreateCommand": "bash .devcontainer/postCommand.sh"
+	"postCreateCommand": "bash .devcontainer/postCommand.sh",
+	"mounts": [
+        "source=${localWorkspaceFolder}/.devcontainer/.gdbinit,target=/root/.gdbinit,type=bind,consistency=cached"
+    ]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

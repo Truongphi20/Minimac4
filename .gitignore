@@ -18,4 +18,4 @@ build
 .vscode
 
 *.vcf.gz
-*.msav
+/*.msav
