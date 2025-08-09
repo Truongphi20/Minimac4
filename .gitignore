@@ -13,3 +13,9 @@
 *.lo
 *.o
 *.obj
+
+build
+.vscode
+
+/*.vcf.gz
+/*.msav
