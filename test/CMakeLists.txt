@@ -17,3 +17,13 @@ target_link_libraries(test_Simple_impute GTest::gtest_main minimac4_source)
 target_compile_definitions(test_Simple_impute PRIVATE TEST_DATA="${CMAKE_SOURCE_DIR}/test/data")
 add_test(NAME test_Simple_impute COMMAND test_Simple_impute)
 
+## Haploid test
+add_executable(test_Haploid_compress test_Haploid_compress.cpp run_main.cpp)
+target_link_libraries(test_Haploid_compress GTest::gtest_main minimac4_source)
+target_compile_definitions(test_Haploid_compress PRIVATE TEST_DATA="${CMAKE_SOURCE_DIR}/test/data")
+add_test(NAME test_Haploid_compress COMMAND test_Haploid_compress)
+
+add_executable(test_Haploid_impute test_Haploid_impute.cpp run_main.cpp)
+target_link_libraries(test_Haploid_impute GTest::gtest_main minimac4_source)
+target_compile_definitions(test_Haploid_impute PRIVATE TEST_DATA="${CMAKE_SOURCE_DIR}/test/data")
+add_test(NAME test_Haploid_impute COMMAND test_Haploid_impute)

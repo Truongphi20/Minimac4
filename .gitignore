@@ -17,5 +17,5 @@
 build
 .vscode
 
-*.vcf.gz
+/*.vcf.gz
 /*.msav
