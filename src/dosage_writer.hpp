@@ -219,7 +219,7 @@ public:
    * For each bin, the mean ER2 is calculated as:
    *
    * \f[
-   *   \text{mean ER2} = \frac{\text{er2\_sum}}{\text{n\_var}}
+   *   \text{mean ER2} = \frac{\text{er2_sum}}{\text{n_var}}
    * \f]
    *
    * where `er2_sum` is the sum of empirical R² values for the bin,
