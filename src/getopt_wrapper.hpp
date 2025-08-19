@@ -8,6 +8,24 @@
 #include <iostream>
 #include <getopt.h>
 
+/**
+ * @class getopt_wrapper
+ * @brief A wrapper for parsing command-line options using getopt and getopt_long.
+ *
+ * This class simplifies handling both short and long command-line options,
+ * automatically generating the short option string and formatting help output.
+ *
+ * @details
+ * The class provides:
+ * - `option_with_desc`: A structure extending `struct option` to include
+ *   a description string for help messages.
+ * - Storage for long options (`long_options_`) and original option
+ *   definitions (`opts_`).
+ * - The program usage string (`usage_str_`) and the generated short option
+ *   string (`short_opt_string_`).
+ * - Tracking of the maximum long option length (`max_long_opt_length_`)
+ *   for nicely aligned help output.
+ */
 class getopt_wrapper
 {
 public:
@@ -30,6 +48,31 @@ protected:
   std::string short_opt_string_;
   std::size_t max_long_opt_length_ = 0;
 public:
+  /**
+   * @brief Constructs a getopt_wrapper object for parsing command-line options.
+   *
+   * This constructor initializes both short and long options for use with
+   * `getopt` and `getopt_long`. It sets up internal data structures for
+   * option parsing and generates the short option string automatically.
+   *
+   * @param usage_str A string describing the program usage, typically
+   *        displayed when the user requests help.
+   * @param long_opts A vector of `option_with_desc` structures describing
+   *        long options, their short equivalents, argument requirements,
+   *        and descriptions.
+   *
+   * @details
+   * The constructor performs the following steps:
+   * 1. Moves the usage string and option vector into member variables.
+   * 2. Resizes the internal `long_options_` array to accommodate all options
+   *    plus a terminating zeroed element (required by `getopt_long`).
+   * 3. Copies each option from `opts_` into `long_options_`.
+   * 4. Updates `max_long_opt_length_` to track the length of the longest
+   *    long option name (used for formatting help output).
+   * 5. Builds the short option string `short_opt_string_`:
+   *    - Adds the short option character if `val` is set.
+   *    - Appends `:` if the option requires an argument (`required_argument`).
+   */
   getopt_wrapper(std::string usage_str, std::vector<option_with_desc> long_opts) :
     usage_str_(std::move(usage_str)),
     opts_(std::move(long_opts))
@@ -50,6 +93,35 @@ public:
     }
   }
 
+  /**
+   * @brief Prints the program usage and all available options to a stream.
+   *
+   * This function formats and displays the usage string followed by a
+   * nicely aligned list of command-line options and their descriptions.
+   * Both short and long options are displayed if available.
+   *
+   * @param os The output stream to which the usage information is written
+   *           (e.g., `std::cout` or `std::cerr`).
+   *
+   * @details
+   * The method performs the following steps:
+   * 1. Prints the main usage string (`usage_str_`) followed by a blank line.
+   * 2. Iterates over all options in `opts_`.
+   * 3. For each option with a description:
+   *    - Prints the short option (if printable) prefixed with `-`.
+   *    - Prints the long option name (if present) prefixed with `--`.
+   *    - Aligns descriptions based on the longest long option (`max_long_opt_length_`)
+   *      for a clean, columnar format.
+   * 4. Flushes the output stream to ensure all text is written.
+   *
+   * Example output:
+   * @code
+   * Usage: myprogram [options]
+   * 
+   *  -h, --help        Display this help message
+   *  -v, --version     Show version information
+   * @endcode
+   */
   void print_usage(std::ostream& os)
   {
     os << usage_str_ << '\n';
