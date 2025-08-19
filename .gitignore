@@ -19,3 +19,6 @@ build
 
 /*.vcf.gz
 /*.msav
+
+docs/html
+docs/latex
