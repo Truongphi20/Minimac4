@@ -1,0 +1,43 @@
+name: Build and Push Dev Container with Conda
+
+on:
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    permissions:
+      packages: write
+      contents: read
+
+    steps:
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Log in to GHCR
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      # Build Docker image
+      - name: Build Docker image with Conda
+        run: |
+          IMAGE_NAME=ghcr.io/${{ github.repository_owner }}/minimac4-dev:latest
+          
+          # Build the image from the devcontainer Dockerfile
+          docker build \
+            --build-arg CONDA_ENV_FILE=.devcontainer/environment.yml \
+            -f .devcontainer/Dockerfile \
+            -t $IMAGE_NAME \
+            .
+
+      # Push Docker image to GHCR
+      - name: Push Docker image
+        run: |
+          IMAGE_NAME=ghcr.io/${{ github.repository_owner }}/minimac4-dev:latest
+          docker push $IMAGE_NAME
