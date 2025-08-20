@@ -324,6 +324,17 @@ public:
   void remove_eov();
 };
 
+
+/**
+ * @class reduced_haplotypes
+ * @brief Represents a collection of haplotype blocks with reduced storage.
+ *
+ * This class manages a sequence of unique_haplotype_block objects, allowing
+ * efficient storage and access to haplotypes across multiple genomic variants.
+ * It maintains block offsets, variant counts, and supports compression of variants.
+ *
+ * @note Iterators traverse variants across all blocks in order.
+ */
 class reduced_haplotypes
 {
 private:
@@ -334,6 +345,16 @@ private:
   std::size_t max_block_size_ = std::numeric_limits<std::size_t>::max();
   bool flush_block_ = true;
 public:
+
+  /**
+   * @class reduced_haplotypes::iterator
+   * @brief Iterator for traversing variants within reduced_haplotypes.
+   *
+   * Provides forward and backward traversal across haplotype blocks.
+   * Supports standard iterator operations (*, ->, ++, --) and index access.
+   *
+   * @note The iterator handles crossing block boundaries automatically.
+   */
   class iterator
   {
   private:
@@ -414,21 +435,100 @@ public:
   iterator end() const { return iterator(*this, blocks_.size(), 0); }
 
   reduced_haplotypes() {}
+
+  /**
+   * @brief Constructs a reduced_haplotypes object with specified block size limits.
+   *
+   * This constructor initializes the minimum and maximum haplotype block sizes.
+   * It ensures that both sizes are at least 1.
+   *
+   * @param min_block_size Minimum allowed size for a haplotype block.
+   * @param max_block_size Maximum allowed size for a haplotype block.
+   */
   reduced_haplotypes(std::size_t min_block_size, std::size_t max_block_size);
+
+  /**
+   * @brief Compresses a variant into the current reduced haplotype block.
+   *
+   * This function attempts to add a variant to the last haplotype block. If the 
+   * compression ratio improves or the flush flag is set, a new block is started.
+   *
+   * @param site_info Reference information for the variant (chromosome, position, alleles, etc.).
+   * @param alleles Vector of alleles corresponding to each haplotype.
+   * @param flush_block If true, forces the current block to flush and start a new block.
+   * @return True if the variant was successfully compressed into the block, false otherwise.
+   */
   bool compress_variant(const reference_site_info& site_info, const std::vector<std::int8_t>& alleles, bool flush_block = false);
+  
+  /**
+   * @brief Appends a new haplotype block to the collection of reduced haplotype blocks.
+   *
+   * If the first variant of the new block is identical to the last variant of the
+   * previous block (same position, reference, and alternate alleles), the duplicate
+   * variant from the previous block is removed to avoid redundancy.
+   *
+   * @param block The unique haplotype block to append.
+   */
   void append_block(const unique_haplotype_block& block);
+
+  /**
+   * @brief Fills the centimorgan (cM) values for all variants in all blocks
+   *        using the provided genetic map.
+   *
+   * @param map_file The genetic map file used to interpolate centimorgan values.
+   */
   void fill_cm(genetic_map_file& map_file);
 
+  /**
+   * @brief Calculates the overall compression ratio of all haplotype blocks.
+   *
+   * The compression ratio is defined as the ratio between the sum of expanded haplotype sizes
+   * plus the product of unique haplotype size and variant count, divided by the total expanded
+   * haplotype size multiplied by the number of variants across all blocks.
+   *
+   * @return The compression ratio as a float.
+   */
   float compression_ratio() const;
+
+  /**
+   * @brief Accesses the stored haplotype blocks.
+   *
+   * @return A constant reference to the deque of unique_haplotype_block objects.
+   */
   const std::deque<unique_haplotype_block>& blocks() const { return blocks_; }
+
+  /**
+   * @brief Returns the total number of variants across all blocks.
+   *
+   * @return Total variant count as std::size_t.
+   */
   std::size_t variant_size() const { return variant_count_; }
 };
 
+/**
+ * @brief Compares two iterators for equality.
+ *
+ * Two iterators are considered equal if they refer to the same block index
+ * and the same local index within that block.
+ *
+ * @param lhs Left-hand side iterator.
+ * @param rhs Right-hand side iterator.
+ * @return True if iterators are equal, false otherwise.
+ */
 inline bool operator==(const reduced_haplotypes::iterator& lhs, const reduced_haplotypes::iterator& rhs)
 {
   return lhs.block_idx() == rhs.block_idx() && lhs.block_local_idx() == rhs.block_local_idx();
 }
 
+/**
+ * @brief Compares two iterators for inequality.
+ *
+ * This is the negation of operator==.
+ *
+ * @param lhs Left-hand side iterator.
+ * @param rhs Right-hand side iterator.
+ * @return True if iterators are not equal, false otherwise.
+ */
 inline bool operator!=(const reduced_haplotypes::iterator& lhs, const reduced_haplotypes::iterator& rhs)
 {
   return !(lhs == rhs);
