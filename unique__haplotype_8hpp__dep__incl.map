@@ -1,0 +1,26 @@
+<map id="src/unique_haplotype.hpp" name="src/unique_haplotype.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="316,5,505,33"/>
+<area shape="rect" id="Node000002" href="$dosage__writer_8hpp.html" title=" " alt="" coords="34,157,198,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="302,38,243,55,187,83,166,100,149,120,125,158,120,155,145,117,163,96,184,79,241,50,301,33"/>
+<area shape="rect" id="Node000007" href="$hidden__markov__model_8hpp.html" title=" " alt="" coords="198,81,418,109"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="381,45,328,83,324,78,378,40"/>
+<area shape="rect" id="Node000009" href="$input__prep_8hpp.html" title=" " alt="" coords="449,81,590,109"/>
+<area shape="poly" id="edge10_Node000001_Node000009" title=" " alt="" coords="444,40,502,78,499,83,441,44"/>
+<area shape="rect" id="Node000011" href="$unique__haplotype_8cpp.html" title=" " alt="" coords="614,81,802,109"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="479,35,655,78,654,83,478,40"/>
+<area shape="rect" id="Node000003" href="$dosage__writer_8cpp.html" title=" " alt="" coords="5,232,168,260"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="107,200,94,233,89,231,102,198"/>
+<area shape="rect" id="Node000004" href="$imputation_8hpp.html" title=" " alt="" coords="192,232,336,260"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="157,189,239,230,236,234,155,194"/>
+<area shape="rect" id="Node000005" href="$imputation_8cpp.html" title=" " alt="" coords="118,308,260,336"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="241,273,204,309,201,306,238,269"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html" title=" " alt="" coords="285,308,389,336"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="290,269,326,306,322,309,286,273"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="261,117,151,159,149,154,259,112"/>
+<area shape="poly" id="edge9_Node000007_Node000004" title=" " alt="" coords="285,121,272,138,262,158,258,177,258,197,263,231,258,232,253,197,253,176,257,156,268,136,281,118"/>
+<area shape="rect" id="Node000008" href="$hidden__markov__model_8cpp.html" title=" " alt="" coords="272,157,491,184"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="334,118,370,154,366,158,330,122"/>
+<area shape="poly" id="edge11_Node000009_Node000004" title=" " alt="" coords="524,124,520,156,514,172,504,186,477,203,435,218,336,238,335,233,433,212,474,199,501,182,509,170,515,155,519,124"/>
+<area shape="rect" id="Node000010" href="$input__prep_8cpp.html" title=" " alt="" coords="566,157,706,184"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="555,115,617,154,614,158,552,120"/>
+</map>

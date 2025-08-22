@@ -1,0 +1,10 @@
+<map id="reduced_haplotypes::blocks" name="reduced_haplotypes::blocks">
+<area shape="rect" id="Node000001" title="Accesses the stored haplotype blocks." alt="" coords="528,22,681,67"/>
+<area shape="rect" id="Node000002" href="$input__prep_8cpp.html#a3fba53d7d33e4a0f719c8683dc761bff" title="Generates reverse mapping tables for reduced haplotype blocks." alt="" coords="302,5,480,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="512,36,480,32,481,27,513,31"/>
+<area shape="rect" id="Node000003" href="$classimputation.html#a7b5222272b8a616e387a991194235d62" title="Perform genotype imputation for a given genomic region." alt="" coords="108,22,254,67"/>
+<area shape="poly" id="edge4_Node000001_Node000003" title=" " alt="" coords="513,47,254,47,254,42,513,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="287,34,254,38,254,33,286,29"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,58"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="92,47,60,47,60,42,92,42"/>
+</map>

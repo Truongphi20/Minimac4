@@ -1,0 +1,25 @@
+<map id="unique_haplotype_block::variants" name="unique_haplotype_block::variants">
+<area shape="rect" id="Node000001" title="Get the list of compressed reference variants in this block." alt="" coords="772,148,951,193"/>
+<area shape="rect" id="Node000002" href="$classreduced__haplotypes.html#abe0143dde9fc1721c441e0c23e739be5" title="Appends a new haplotype block to the collection of reduced haplotype blocks." alt="" coords="563,37,715,82"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="800,143,722,103,685,85,688,80,725,99,803,138"/>
+<area shape="rect" id="Node000003" href="$input__prep_8cpp.html#a31b6160b69f849225374f36e12dab454" title="Load and process reference haplotypes from an MVCF file." alt="" coords="309,37,506,64"/>
+<area shape="poly" id="edge10_Node000001_Node000003" title=" " alt="" coords="837,137,817,108,790,77,759,49,723,27,687,16,650,10,612,8,574,10,504,23,448,39,447,33,503,17,574,5,612,3,650,4,688,11,725,23,762,45,794,73,821,105,841,134"/>
+<area shape="rect" id="Node000006" href="$input__prep_8cpp.html#ae6103761cf74447b4a53fd6a17de447c" title="Loads reference haplotypes using an older recombination&#45;based approach." alt="" coords="309,88,506,133"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="756,159,723,154,506,126,507,120,724,149,757,153"/>
+<area shape="rect" id="Node000007" href="$input__prep_8cpp.html#ab5bd937ac31def9857144bb969f642b3" title="Compress a haplotype reference panel into blocks and write to an output file." alt="" coords="108,139,261,183"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="756,172,261,165,261,159,756,166"/>
+<area shape="rect" id="Node000008" href="$input__prep_8cpp.html#a6b95ba39faa3a2487a7010a060dbad2a" title="Converts an old M3VCF file (v1/v2) to a newer VCF&#45;like format (MVCFv3.0)." alt="" coords="335,207,480,235"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="757,188,724,192,481,217,481,212,723,186,756,182"/>
+<area shape="rect" id="Node000009" href="$classhidden__markov__model.html#aa0e5498c4f7f7ed9f11d1f81e3335fc6" title="Performs a backward traversal over reference haplotypes to compute posterior probabilities." alt="" coords="554,259,724,303"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="803,203,725,242,688,261,685,256,722,237,800,198"/>
+<area shape="rect" id="Node000010" href="$classhidden__markov__model.html#aa1459d3b24365049cb34ea8f40ff828d" title="Performs a forward traversal over reference haplotypes for a given target haplotype." alt="" coords="554,328,724,373"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="837,207,788,263,758,292,725,318,705,330,702,325,722,314,755,288,785,259,833,203"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="548,59,507,57,507,52,548,53"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="548,82,508,91,506,86,547,77"/>
+<area shape="rect" id="Node000004" href="$classimputation.html#a7b5222272b8a616e387a991194235d62" title="Perform genotype imputation for a given genomic region." alt="" coords="111,49,258,94"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="294,64,258,67,258,62,294,59"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,147,60,175"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="133,105,59,149,56,144,131,100"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="92,164,60,164,60,158,92,158"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="319,224,217,218,161,210,107,198,58,178,60,173,108,193,162,205,217,213,319,219"/>
+</map>

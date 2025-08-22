@@ -1,0 +1,5 @@
+<map id="unique_haplotype_block::fill_cm" name="unique_haplotype_block::fill_cm">
+<area shape="rect" id="Node000001" title="Fills the centimorgan (cM) values for all variants in the haplotype block." alt="" coords="5,5,185,50"/>
+<area shape="rect" id="Node000002" href="$classgenetic__map__file.html#af9d9dec9d1657b85a7fb7d89e7be0d5b" title="Interpolate the genetic map position (in centimorgans) for a variant." alt="" coords="233,5,444,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,25,217,25,217,30,185,30"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="reduced_haplotypes::iterator::block_idx" name="reduced_haplotypes::iterator::block_idx">
+<area shape="rect" id="Node000001" title=" " alt="" coords="416,140,568,185"/>
+<area shape="rect" id="Node000002" href="$classreduced__haplotypes_1_1iterator.html#a725f25f70b4c0205b9ebe781748f8d15" title=" " alt="" coords="216,109,368,154"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="400,151,368,146,369,141,401,146"/>
+<area shape="rect" id="Node000007" href="$unique__haplotype_8hpp.html#adc5425af4ef556e4e736fb030db44ffe" title="Compares two iterators for equality." alt="" coords="243,178,341,206"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="401,178,342,187,341,182,400,173"/>
+<area shape="rect" id="Node000003" href="$classreduced__haplotypes_1_1iterator.html#a23c6d8779d0832061652255a254a868b" title=" " alt="" coords="5,5,168,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="238,104,166,65,142,53,144,48,169,60,241,99"/>
+<area shape="rect" id="Node000004" href="$classreduced__haplotypes_1_1iterator.html#a15a9e53c0213deb821f4326aeb93dbd1" title=" " alt="" coords="5,75,168,119"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="200,119,168,113,169,108,201,114"/>
+<area shape="rect" id="Node000005" href="$classreduced__haplotypes_1_1iterator.html#a19b2252297adb27f6b7ecdc00c824279" title=" " alt="" coords="10,144,163,189"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="201,150,163,156,163,151,200,145"/>
+<area shape="rect" id="Node000006" href="$classreduced__haplotypes_1_1iterator.html#a33ef19469278510c2bbe616b9525c803" title=" " alt="" coords="10,213,163,258"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="225,164,217,169,193,186,169,203,146,215,144,210,166,199,190,182,214,164,223,159"/>
+</map>

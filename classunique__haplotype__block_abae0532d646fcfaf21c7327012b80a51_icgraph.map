@@ -1,0 +1,7 @@
+<map id="unique_haplotype_block::compress_variant" name="unique_haplotype_block::compress_variant">
+<area shape="rect" id="Node000001" title="Compress and map haplotype alleles for a new variant into the block." alt="" coords="309,5,488,50"/>
+<area shape="rect" id="Node000002" href="$input__prep_8cpp.html#ab5bd937ac31def9857144bb969f642b3" title="Compress a haplotype reference panel into blocks and write to an output file." alt="" coords="108,5,261,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="294,30,261,30,261,25,294,25"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,14,60,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,30,60,30,60,25,92,25"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="prog_args::prog_args" name="prog_args::prog_args">
+<area shape="rect" id="Node000001" title="Construct program arguments parser for minimac4." alt="" coords="5,14,163,42"/>
+<area shape="rect" id="Node000002" href="$classgetopt__wrapper.html#a366b1f4a4703774169e8fddfe0be2713" title="Constructs a getopt_wrapper object for parsing command&#45;line options." alt="" coords="211,5,384,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,25,195,25,195,30,163,30"/>
+</map>

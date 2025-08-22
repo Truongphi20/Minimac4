@@ -1,0 +1,15 @@
+<map id="convert_old_m3vcf" name="convert_old_m3vcf">
+<area shape="rect" id="Node000001" title="Converts an old M3VCF file (v1/v2) to a newer VCF&#45;like format (MVCFv3.0)." alt="" coords="5,118,151,146"/>
+<area shape="rect" id="Node000002" href="$classunique__haplotype__block.html#ada3ab17532ea5baefd80fe72307846f2" title="Deserialize a unique haplotype block from an input stream (m3vcf format)." alt="" coords="199,5,378,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,115,197,60,210,54,212,59,200,65,103,120"/>
+<area shape="rect" id="Node000004" href="$classunique__haplotype__block.html#a6cece685c1b9ed1e8605d6da1605fca8" title="Fills the centimorgan (cM) values for all variants in the haplotype block." alt="" coords="199,75,378,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="150,117,183,112,184,117,151,122"/>
+<area shape="rect" id="Node000006" href="$classunique__haplotype__block.html#aeec29660714f418ad463e25b691e192a" title="Serializes the unique haplotype block to a SAVVY output file." alt="" coords="199,144,378,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="151,141,184,146,183,152,150,146"/>
+<area shape="rect" id="Node000007" href="$classunique__haplotype__block.html#ad08c799f3eb6ffe2c7c5cad53f6381a9" title="Get the list of compressed reference variants in this block." alt="" coords="199,213,378,258"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="103,144,200,199,212,204,210,209,197,203,100,148"/>
+<area shape="rect" id="Node000003" href="$classunique__haplotype__block.html#ad3b893b578cd0a31bad9b21fa6fee652" title="Clears all data stored in the haplotype block." alt="" coords="442,5,621,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,25,426,25,426,30,379,30"/>
+<area shape="rect" id="Node000005" href="$classgenetic__map__file.html#af9d9dec9d1657b85a7fb7d89e7be0d5b" title="Interpolate the genetic map position (in centimorgans) for a variant." alt="" coords="426,75,637,119"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="379,94,410,94,410,100,379,100"/>
+</map>

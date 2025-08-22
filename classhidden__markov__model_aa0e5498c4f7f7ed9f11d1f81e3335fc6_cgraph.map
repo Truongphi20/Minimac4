@@ -1,0 +1,19 @@
+<map id="hidden_markov_model::traverse_backward" name="hidden_markov_model::traverse_backward">
+<area shape="rect" id="Node000001" title="Performs a backward traversal over reference haplotypes to compute posterior probabilities." alt="" coords="5,235,175,279"/>
+<area shape="rect" id="Node000002" href="$classreduced__haplotypes.html#a60e35764066ee20b0bc825482d956dc1" title=" " alt="" coords="246,5,398,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,233,116,196,143,150,178,102,221,60,231,54,234,58,224,64,182,105,148,152,121,198,103,235"/>
+<area shape="rect" id="Node000003" href="$classunique__haplotype__block.html#a9f93e57c8c7eb23db0e2c2f2f84534fe" title="Get the haplotype cardinalities across unique columns." alt="" coords="232,75,412,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="108,232,156,181,187,154,221,129,230,124,233,129,224,134,191,158,160,185,112,236"/>
+<area shape="rect" id="Node000004" href="$classunique__haplotype__block.html#ad3b893b578cd0a31bad9b21fa6fee652" title="Clears all data stored in the haplotype block." alt="" coords="232,144,412,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="142,232,222,199,239,192,241,197,224,203,144,237"/>
+<area shape="rect" id="Node000005" href="$classreduced__haplotypes.html#a84d77aa694b17ecfe412d8f4a4e1614b" title=" " alt="" coords="230,212,414,240"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="174,243,214,238,215,243,175,248"/>
+<area shape="rect" id="Node000006" href="$classunique__haplotype__block.html#a551b270f09ebd18af3a6cc9b1a71dc8d" title="Get the number of original haplotypes after expansion." alt="" coords="223,264,421,309"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="175,265,208,269,207,275,174,270"/>
+<area shape="rect" id="Node000007" href="$classunique__haplotype__block.html#ac65c8fbf9494f04978421e0064b1e2ec" title="Get the number of unique haplotypes represented in the block." alt="" coords="232,333,412,378"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="136,277,224,319,239,325,237,330,222,323,134,282"/>
+<area shape="rect" id="Node000008" href="$classunique__haplotype__block.html#a3100e7e155907f588b0cd74eac77778b" title="Get the mapping from haplotypes to unique columns." alt="" coords="232,403,412,447"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="110,278,158,333,190,362,224,388,232,393,230,398,221,393,186,366,154,337,106,282"/>
+<area shape="rect" id="Node000009" href="$classunique__haplotype__block.html#ad08c799f3eb6ffe2c7c5cad53f6381a9" title="Get the list of compressed reference variants in this block." alt="" coords="232,472,412,517"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="103,279,120,317,147,365,182,415,224,458,230,462,227,466,221,462,177,418,142,368,116,320,98,281"/>
+</map>

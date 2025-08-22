@@ -1,0 +1,5 @@
+<map id="reduced_haplotypes::fill_cm" name="reduced_haplotypes::fill_cm">
+<area shape="rect" id="Node000001" title="Fills the centimorgan (cM) values for all variants in all blocks using the provided genetic map." alt="" coords="253,5,405,50"/>
+<area shape="rect" id="Node000002" href="$input__prep_8cpp.html#ad0c14a19ad01f940f506c712b7c5b8ba" title="Loads Hidden Markov Model (HMM) parameters for target variants." alt="" coords="5,14,205,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,30,205,30,205,25,237,25"/>
+</map>

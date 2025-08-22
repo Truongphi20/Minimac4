@@ -1,0 +1,5 @@
+<map id="unique_haplotype_block::fill_cm_from_recom" name="unique_haplotype_block::fill_cm_from_recom">
+<area shape="rect" id="Node000001" title="Fills missing centimorgan (cM) values for variants using recombination probabilities." alt="" coords="5,5,185,50"/>
+<area shape="rect" id="Node000002" href="$classrecombination.html#a442383839184ab50a5a97760136a1db6" title="Convert switch probability to genetic distance." alt="" coords="233,5,398,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,25,217,25,217,30,185,30"/>
+</map>

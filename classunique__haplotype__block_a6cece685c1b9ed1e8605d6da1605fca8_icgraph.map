@@ -1,0 +1,7 @@
+<map id="unique_haplotype_block::fill_cm" name="unique_haplotype_block::fill_cm">
+<area shape="rect" id="Node000001" title="Fills the centimorgan (cM) values for all variants in the haplotype block." alt="" coords="301,5,480,50"/>
+<area shape="rect" id="Node000002" href="$input__prep_8cpp.html#a6b95ba39faa3a2487a7010a060dbad2a" title="Converts an old M3VCF file (v1/v2) to a newer VCF&#45;like format (MVCFv3.0)." alt="" coords="108,14,253,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="286,30,253,30,253,25,286,25"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,14,60,42"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,30,60,30,60,25,92,25"/>
+</map>

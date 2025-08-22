@@ -1,0 +1,13 @@
+<map id="recombination::cm_to_switch_prob" name="recombination::cm_to_switch_prob">
+<area shape="rect" id="Node000001" title="Convert genetic distance to switch probability (default decay rate)." alt="" coords="549,65,713,110"/>
+<area shape="rect" id="Node000002" href="$input__prep_8cpp.html#a31b6160b69f849225374f36e12dab454" title="Load and process reference haplotypes from an MVCF file." alt="" coords="303,14,500,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="534,64,501,56,459,45,460,40,502,50,535,59"/>
+<area shape="rect" id="Node000005" href="$input__prep_8cpp.html#ae6103761cf74447b4a53fd6a17de447c" title="Loads reference haplotypes using an older recombination&#45;based approach." alt="" coords="303,65,500,110"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="534,90,501,90,501,85,534,85"/>
+<area shape="rect" id="Node000006" href="$input__prep_8cpp.html#ad0c14a19ad01f940f506c712b7c5b8ba" title="Loads Hidden Markov Model (HMM) parameters for target variants." alt="" coords="302,134,501,162"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="535,116,502,125,460,136,459,131,501,120,534,111"/>
+<area shape="rect" id="Node000003" href="$classimputation.html#a7b5222272b8a616e387a991194235d62" title="Perform genotype imputation for a given genomic region." alt="" coords="108,5,254,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="288,30,254,30,254,25,288,25"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,14,60,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="92,30,60,30,60,25,92,25"/>
+</map>

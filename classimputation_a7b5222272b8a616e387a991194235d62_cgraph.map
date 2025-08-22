@@ -1,0 +1,90 @@
+<map id="imputation::impute_chunk" name="imputation::impute_chunk">
+<area shape="rect" id="Node000001" title="Perform genotype imputation for a given genomic region." alt="" coords="5,824,152,869"/>
+<area shape="rect" id="Node000002" href="$classprog__args.html#af337ad646a3d7862fb4c78bcaf1fa33b" title=" " alt="" coords="225,139,378,183"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,823,88,695,108,507,124,409,144,320,168,245,182,216,198,194,210,182,214,186,202,197,187,219,173,247,149,321,129,410,114,508,93,696,84,824"/>
+<area shape="rect" id="Node000003" href="$classreduced__haplotypes.html#af5b7d98d7d55483c034f7de8762b6c07" title="Accesses the stored haplotype blocks." alt="" coords="482,5,634,50"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="79,824,90,713,113,554,129,473,148,398,171,337,184,313,198,295,223,276,249,267,275,266,302,269,327,271,353,270,378,262,402,244,419,223,426,201,428,178,426,155,426,108,433,84,450,61,466,47,470,51,454,64,438,87,431,109,432,155,433,178,431,202,423,225,406,248,380,267,354,275,327,276,301,274,275,271,250,273,226,281,202,299,188,316,176,339,153,400,134,474,118,555,95,714,84,824"/>
+<area shape="rect" id="Node000004" href="$classprog__args.html#a2c0018b6246f89475a459250b1c9cff0" title=" " alt="" coords="209,308,395,336"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="80,823,92,722,116,579,132,506,151,439,173,385,198,347,202,343,206,347,202,351,178,387,156,441,138,507,122,580,98,723,85,824"/>
+<area shape="rect" id="Node000005" href="$classprog__args.html#ad3dd706e8bd2cea5a1b413ef35df5f18" title=" " alt="" coords="215,360,388,388"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="80,823,95,731,120,603,136,538,154,479,175,431,198,398,201,395,205,399,202,401,180,433,159,481,141,540,125,605,100,732,85,824"/>
+<area shape="rect" id="Node000006" href="$classprog__args.html#ae4e9c066867a650bc4a39d81bc5e93b2" title=" " alt="" coords="229,412,375,457"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="78,823,83,755,101,660,116,609,137,558,164,510,198,467,213,455,217,459,202,471,168,513,141,560,121,610,106,661,89,756,83,824"/>
+<area shape="rect" id="Node000007" href="$classfull__dosages__results.html#a1a0630a02a40f5a515d3fcfd72940668" title="Fills all dosage matrices with the end&#45;of&#45;vector sentinel value." alt="" coords="225,481,379,526"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="80,823,89,766,109,689,125,648,144,608,169,570,198,536,210,527,213,531,202,540,173,573,149,610,130,650,114,691,94,767,85,824"/>
+<area shape="rect" id="Node000008" href="$input__prep_8cpp.html#a3fba53d7d33e4a0f719c8683dc761bff" title="Generates reverse mapping tables for reduced haplotype blocks." alt="" coords="213,207,391,235"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="79,823,89,705,111,534,127,446,147,364,170,297,183,271,198,251,209,241,213,245,202,255,188,274,175,300,152,366,132,447,117,535,95,706,84,824"/>
+<area shape="rect" id="Node000009" href="$input__prep_8cpp.html#a31b6160b69f849225374f36e12dab454" title="Load and process reference haplotypes from an MVCF file." alt="" coords="203,550,400,578"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="82,823,94,775,117,714,150,649,172,620,198,594,214,582,217,587,201,598,176,623,155,652,121,716,99,777,87,824"/>
+<area shape="rect" id="Node000022" href="$input__prep_8cpp.html#a9de162b6e2c02f48cc2818b71cbf6f4c" title="Load haplotypes from a target file for a given genomic region." alt="" coords="215,720,389,748"/>
+<area shape="poly" id="edge24_Node000001_Node000022" title=" " alt="" coords="104,822,147,789,198,759,217,751,219,756,201,763,150,794,107,826"/>
+<area shape="rect" id="Node000025" href="$classprog__args.html#a76cec9fefd7f9c262e6885fb2a324578" title=" " alt="" coords="223,772,381,800"/>
+<area shape="poly" id="edge27_Node000001_Node000025" title=" " alt="" coords="151,822,199,809,227,802,228,807,200,814,153,828"/>
+<area shape="rect" id="Node000026" href="$classdosage__writer.html#ad377d2146427b208430b2fff795b1643" title="Merge temporary HDS and empirical dosage files into the final output." alt="" coords="220,824,384,869"/>
+<area shape="poly" id="edge28_Node000001_Node000026" title=" " alt="" coords="152,844,204,844,204,849,152,849"/>
+<area shape="rect" id="Node000027" href="$classprog__args.html#aef22532f4a0cf1cd216793494054ba58" title=" " alt="" coords="224,892,380,920"/>
+<area shape="poly" id="edge29_Node000001_Node000027" title=" " alt="" coords="153,865,200,878,228,886,227,891,199,884,151,870"/>
+<area shape="rect" id="Node000028" href="$classprog__args.html#ac7d0ff3282dfcc502a499cce4deb599f" title=" " alt="" coords="219,944,385,972"/>
+<area shape="poly" id="edge30_Node000001_Node000028" title=" " alt="" coords="107,867,150,899,201,929,219,937,217,942,198,934,147,904,104,871"/>
+<area shape="rect" id="Node000029" href="$classprog__args.html#a119e276346027c055afaa0eb62a635ed" title=" " alt="" coords="200,996,404,1024"/>
+<area shape="poly" id="edge31_Node000001_Node000029" title=" " alt="" coords="96,867,138,925,168,956,201,981,213,988,211,993,198,986,164,960,134,929,91,871"/>
+<area shape="rect" id="Node000030" href="$classprog__args.html#ae4494f3f719693d6ff94039793330930" title=" " alt="" coords="231,1048,373,1076"/>
+<area shape="poly" id="edge32_Node000001_Node000030" title=" " alt="" coords="90,868,106,905,129,949,161,995,201,1034,218,1043,215,1048,198,1038,157,999,125,952,101,907,85,870"/>
+<area shape="rect" id="Node000031" href="$classprog__args.html#a3914077859e76fa0bcea4b6ce66cd110" title=" " alt="" coords="228,1100,376,1128"/>
+<area shape="poly" id="edge33_Node000001_Node000031" title=" " alt="" coords="87,869,100,915,122,973,155,1034,177,1062,201,1086,215,1095,213,1099,198,1090,173,1065,151,1037,117,976,95,916,82,870"/>
+<area shape="rect" id="Node000032" href="$classfull__dosages__results.html#af032e20785753ebc3d769f95af93c811" title="Resizes the dosage matrices to the specified dimensions." alt="" coords="225,1152,379,1197"/>
+<area shape="poly" id="edge34_Node000001_Node000032" title=" " alt="" coords="85,868,96,923,116,995,132,1034,151,1071,174,1107,201,1138,213,1147,210,1151,198,1142,170,1110,146,1074,127,1036,111,997,90,924,80,869"/>
+<area shape="rect" id="Node000033" href="$classprog__args.html#a8b2d7753ed9ac736a0f7f8189c29cff3" title=" " alt="" coords="218,1220,386,1248"/>
+<area shape="poly" id="edge35_Node000001_Node000033" title=" " alt="" coords="83,869,88,935,105,1027,120,1076,141,1124,168,1168,202,1207,207,1211,203,1215,198,1211,163,1171,136,1126,115,1078,100,1028,83,936,78,869"/>
+<area shape="rect" id="Node000034" href="$input__prep_8cpp.html#a361a1a76ebbe3b263e3163760007fa66" title="Separates target&#45;only variants from those found in the reference panel." alt="" coords="222,1272,382,1317"/>
+<area shape="poly" id="edge36_Node000001_Node000034" title=" " alt="" coords="82,869,86,943,102,1047,116,1103,137,1159,165,1211,202,1258,211,1266,207,1270,198,1261,161,1214,133,1161,111,1105,96,1048,81,943,77,869"/>
+<area shape="rect" id="Node000035" href="$classprog__args.html#aea2b5986d0836d4d2b4a192f7e8456f8" title=" " alt="" coords="228,1340,376,1368"/>
+<area shape="poly" id="edge37_Node000001_Node000035" title=" " alt="" coords="85,869,98,967,122,1106,138,1176,157,1240,178,1292,202,1327,216,1338,212,1342,198,1331,173,1295,152,1242,133,1177,117,1107,93,968,80,869"/>
+<area shape="rect" id="Node000036" href="$classprog__args.html#aec35cf3098c66c510ba48b452d63d1dd" title=" " alt="" coords="216,1392,388,1420"/>
+<area shape="poly" id="edge38_Node000001_Node000036" title=" " alt="" coords="85,869,96,977,119,1130,135,1209,154,1280,176,1339,202,1378,206,1382,202,1386,198,1381,172,1341,149,1282,130,1210,114,1131,91,978,79,870"/>
+<area shape="rect" id="Node000037" href="$classprog__args.html#a228b51d042d8d04875d7fd9ddcdcbb7b" title=" " alt="" coords="216,1444,388,1472"/>
+<area shape="poly" id="edge39_Node000001_Node000037" title=" " alt="" coords="84,869,94,986,116,1155,132,1242,151,1321,175,1386,188,1411,202,1430,206,1434,202,1438,198,1433,183,1414,170,1388,146,1323,127,1243,111,1156,89,986,79,869"/>
+<area shape="rect" id="Node000038" href="$classprog__args.html#a2a13d6fc48e7f2a922d5ecc92ec522f0" title=" " alt="" coords="231,1496,373,1524"/>
+<area shape="poly" id="edge40_Node000001_Node000038" title=" " alt="" coords="84,869,92,995,113,1180,128,1275,148,1362,173,1434,186,1461,202,1482,218,1495,215,1499,198,1486,182,1464,168,1436,143,1364,123,1276,107,1181,87,996,78,869"/>
+<area shape="rect" id="Node000039" href="$classreduced__haplotypes.html#a5b11aec30fdec4903d307720f3c378dd" title="Returns the total number of variants across all blocks." alt="" coords="482,731,634,775"/>
+<area shape="poly" id="edge41_Node000001_Node000039" title=" " alt="" coords="83,823,96,781,118,729,152,677,173,655,198,637,253,612,278,605,302,603,326,606,351,612,405,637,424,655,432,676,438,697,454,716,469,727,466,731,450,720,434,699,427,678,420,658,403,642,349,617,325,611,302,609,278,611,255,617,201,642,177,659,156,681,123,731,101,783,88,824"/>
+<area shape="rect" id="Node000040" href="$classdosage__writer.html#af4eafee4fde6dbc3fdd84f2142a04521" title="Write imputed dosages and observed genotypes to output files." alt="" coords="225,652,379,697"/>
+<area shape="poly" id="edge42_Node000001_Node000040" title=" " alt="" coords="92,822,135,765,165,734,198,707,209,700,212,705,201,711,168,738,139,768,96,825"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="386,204,402,194,415,178,422,162,426,129,429,95,437,78,450,60,466,48,469,53,454,64,441,80,435,96,431,130,427,164,420,181,406,198,389,209"/>
+<area shape="rect" id="Node000010" href="$classreduced__haplotypes.html#abe0143dde9fc1721c441e0c23e739be5" title="Appends a new haplotype block to the collection of reduced haplotype blocks." alt="" coords="482,333,634,378"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="387,547,402,536,416,519,423,502,426,465,428,427,436,408,450,388,466,376,470,380,454,392,440,410,434,428,431,465,429,503,421,522,406,540,390,551"/>
+<area shape="rect" id="Node000011" href="$classunique__haplotype__block.html#ad08c799f3eb6ffe2c7c5cad53f6381a9" title="Get the list of compressed reference variants in this block." alt="" coords="711,304,891,349"/>
+<area shape="poly" id="edge23_Node000009_Node000011" title=" " alt="" coords="388,547,402,537,420,510,427,483,426,455,422,427,418,398,419,371,428,344,450,319,481,299,514,286,550,279,586,277,658,282,722,297,721,302,657,288,586,282,550,284,516,292,483,304,454,323,433,347,424,372,424,398,428,426,432,455,432,483,425,512,406,540,392,551"/>
+<area shape="rect" id="Node000012" href="$classrecombination.html#a7c20c24aa59851417602f61648e686de" title="Convert genetic distance to switch probability (default decay rate)." alt="" coords="476,403,639,447"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="383,547,402,536,419,518,426,499,433,478,450,458,461,450,464,454,454,462,438,481,431,500,423,521,406,540,386,552"/>
+<area shape="rect" id="Node000013" href="$classreduced__haplotypes.html#a438770877030eb2d23369ef1ed130e16" title="Compresses a variant into the current reduced haplotype block." alt="" coords="482,472,634,517"/>
+<area shape="poly" id="edge13_Node000009_Node000013" title=" " alt="" coords="361,547,403,536,466,518,467,523,405,541,363,552"/>
+<area shape="rect" id="Node000014" href="$classunique__haplotype__block.html#ada3ab17532ea5baefd80fe72307846f2" title="Deserialize a unique haplotype block from an input stream (m3vcf format)." alt="" coords="468,541,647,586"/>
+<area shape="poly" id="edge14_Node000009_Node000014" title=" " alt="" coords="401,561,452,561,452,566,401,566"/>
+<area shape="rect" id="Node000016" href="$classreduced__haplotypes.html#a84d77aa694b17ecfe412d8f4a4e1614b" title=" " alt="" coords="466,679,650,707"/>
+<area shape="poly" id="edge16_Node000009_Node000016" title=" " alt="" coords="372,576,406,594,422,612,430,631,438,649,454,666,460,670,457,674,450,670,433,652,425,633,418,615,402,598,370,580"/>
+<area shape="rect" id="Node000017" href="$classgenetic__map__file.html#af9d9dec9d1657b85a7fb7d89e7be0d5b" title="Interpolate the genetic map position (in centimorgans) for a variant." alt="" coords="452,75,663,119"/>
+<area shape="poly" id="edge17_Node000009_Node000017" title=" " alt="" coords="389,547,402,537,421,511,433,486,441,462,443,437,439,387,427,337,415,287,410,236,413,209,419,183,432,157,450,130,451,128,455,132,454,133,436,159,424,185,418,210,416,235,421,286,433,336,444,386,449,437,446,463,438,488,425,514,406,540,393,551"/>
+<area shape="rect" id="Node000018" href="$classunique__haplotype__block.html#ad29df3bdc6f4c36d1549f519006c9ae7" title="Removes &quot;end&#45;of&#45;vector&quot; markers from the unique haplotype map." alt="" coords="468,144,647,189"/>
+<area shape="poly" id="edge18_Node000009_Node000018" title=" " alt="" coords="389,547,402,536,418,516,429,495,438,454,435,413,427,372,418,330,415,287,424,243,434,221,450,199,454,195,458,199,454,203,439,224,429,245,420,287,424,329,432,371,441,412,443,455,434,497,422,519,406,540,392,551"/>
+<area shape="rect" id="Node000019" href="$classunique__haplotype__block.html#aad2e7d5ff6d7e6e0860edb6521fc033c" title="Trims variants outside a specified genomic range." alt="" coords="468,611,647,655"/>
+<area shape="poly" id="edge19_Node000009_Node000019" title=" " alt="" coords="356,575,459,603,457,609,355,581"/>
+<area shape="rect" id="Node000021" href="$classunique__haplotype__block.html#a3100e7e155907f588b0cd74eac77778b" title="Get the mapping from haplotypes to unique columns." alt="" coords="468,213,647,258"/>
+<area shape="poly" id="edge22_Node000009_Node000021" title=" " alt="" coords="388,547,402,537,424,505,432,474,432,442,428,410,423,377,422,344,429,310,450,275,460,266,463,269,454,279,434,312,427,344,428,377,433,409,438,442,438,474,429,507,406,540,392,551"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="634,344,696,336,696,342,635,349"/>
+<area shape="rect" id="Node000015" href="$classunique__haplotype__block.html#ad3b893b578cd0a31bad9b21fa6fee652" title="Clears all data stored in the haplotype block." alt="" coords="711,541,891,586"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="648,561,696,561,696,566,648,566"/>
+<area shape="poly" id="edge20_Node000019_Node000015" title=" " alt="" coords="638,607,705,588,706,593,640,613"/>
+<area shape="rect" id="Node000020" href="$classunique__haplotype__block.html#ac6accb25615e067cd96ce3abdf82e70f" title="Get the number of variants compressed in this block." alt="" coords="711,611,891,655"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="648,630,696,630,696,636,648,636"/>
+<area shape="rect" id="Node000023" href="$input__prep_8cpp.html#a491123a3631453e6921a547d9349e2c9" title=" " alt="" coords="499,938,616,966"/>
+<area shape="poly" id="edge25_Node000022_Node000023" title=" " alt="" coords="388,747,406,759,422,780,429,801,430,844,431,885,439,905,454,924,468,935,485,942,483,947,466,939,450,928,434,908,426,886,425,844,424,802,417,783,402,763,385,751"/>
+<area shape="rect" id="Node000024" href="$input__prep_8cpp.html#a22f42f78fb85430df99c61826bc5c2af" title=" " alt="" coords="508,990,608,1018"/>
+<area shape="poly" id="edge26_Node000022_Node000024" title=" " alt="" coords="389,746,406,759,425,787,433,814,434,842,431,869,427,896,428,923,435,949,454,975,472,988,493,996,491,1001,469,993,450,979,431,952,423,924,422,896,425,869,428,842,428,815,420,789,402,763,386,751"/>
+<area shape="poly" id="edge45_Node000040_Node000016" title=" " alt="" coords="380,677,450,683,450,688,379,683"/>
+<area shape="poly" id="edge46_Node000040_Node000039" title=" " alt="" coords="378,695,469,723,467,728,376,700"/>
+<area shape="rect" id="Node000041" href="$classreduced__haplotypes.html#a60e35764066ee20b0bc825482d956dc1" title=" " alt="" coords="482,800,634,845"/>
+<area shape="poly" id="edge43_Node000040_Node000041" title=" " alt="" coords="381,692,406,707,423,727,430,747,438,767,454,786,469,796,466,800,450,790,433,770,425,749,418,730,402,711,378,696"/>
+<area shape="rect" id="Node000042" href="$classfull__dosages__results.html#a4f2abb43322a58e7a797aee65674d0d6" title="Returns the dimensions of the main dosages matrix." alt="" coords="480,869,635,914"/>
+<area shape="poly" id="edge44_Node000040_Node000042" title=" " alt="" coords="381,690,406,707,420,726,428,745,431,783,433,820,440,837,454,855,469,867,465,871,450,859,436,840,428,821,425,783,422,747,416,729,402,711,378,694"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="reduced_haplotypes::begin" name="reduced_haplotypes::begin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="549,57,702,102"/>
+<area shape="rect" id="Node000002" href="$input__prep_8cpp.html#ad0c14a19ad01f940f506c712b7c5b8ba" title="Loads Hidden Markov Model (HMM) parameters for target variants." alt="" coords="302,5,501,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="534,56,501,47,459,36,460,31,502,42,535,51"/>
+<area shape="rect" id="Node000003" href="$classhidden__markov__model.html#aa0e5498c4f7f7ed9f11d1f81e3335fc6" title="Performs a backward traversal over reference haplotypes to compute posterior probabilities." alt="" coords="317,57,486,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="533,82,487,82,487,76,533,76"/>
+<area shape="rect" id="Node000004" href="$classdosage__writer.html#af4eafee4fde6dbc3fdd84f2142a04521" title="Write imputed dosages and observed genotypes to output files." alt="" coords="324,126,479,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="538,109,477,128,476,123,536,104"/>
+<area shape="rect" id="Node000005" href="$classimputation.html#a7b5222272b8a616e387a991194235d62" title="Perform genotype imputation for a given genomic region." alt="" coords="108,126,254,171"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="309,151,254,151,254,146,309,146"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,135,60,162"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="92,151,60,151,60,146,92,146"/>
+</map>

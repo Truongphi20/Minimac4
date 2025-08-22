@@ -1,0 +1,13 @@
+<map id="load_variant_hmm_params" name="load_variant_hmm_params">
+<area shape="rect" id="Node000001" title="Loads Hidden Markov Model (HMM) parameters for target variants." alt="" coords="5,143,205,171"/>
+<area shape="rect" id="Node000002" href="$classreduced__haplotypes.html#a60e35764066ee20b0bc825482d956dc1" title=" " alt="" coords="269,5,421,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,141,180,102,251,60,263,54,266,59,254,65,183,107,127,145"/>
+<area shape="rect" id="Node000003" href="$classrecombination.html#a7c20c24aa59851417602f61648e686de" title="Convert genetic distance to switch probability (default decay rate)." alt="" coords="263,75,426,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,140,247,119,249,124,164,145"/>
+<area shape="rect" id="Node000004" href="$classreduced__haplotypes.html#a84d77aa694b17ecfe412d8f4a4e1614b" title=" " alt="" coords="253,143,437,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="205,154,237,154,237,160,205,160"/>
+<area shape="rect" id="Node000005" href="$classreduced__haplotypes.html#a2b64b102c51814ddaf9e923b3c67e33f" title="Fills the centimorgan (cM) values for all variants in all blocks using the provided genetic map." alt="" coords="269,195,421,239"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="164,169,254,192,253,197,162,174"/>
+<area shape="rect" id="Node000006" href="$classreduced__haplotypes.html#a5b11aec30fdec4903d307720f3c378dd" title="Returns the total number of variants across all blocks." alt="" coords="269,264,421,309"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="127,169,183,207,254,249,266,255,263,260,251,254,180,212,124,173"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="src/variant.hpp" name="src/variant.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="103,5,222,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,64,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,36,71,75,69,71,138,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="87,81,150,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,35,136,69,132,66,152,32"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="174,81,239,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="173,32,193,66,189,69,168,35"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="263,81,321,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="187,31,257,71,254,75,184,36"/>
+</map>

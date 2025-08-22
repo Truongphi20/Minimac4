@@ -1,0 +1,38 @@
+<map id="src/variant.hpp" name="src/variant.hpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="228,5,346,33"/>
+<area shape="rect" id="Node000002" href="$dosage__writer_8hpp.html" title=" " alt="" coords="252,308,415,336"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="261,45,218,87,176,142,161,171,153,201,154,231,167,259,184,277,204,291,252,309,251,314,202,296,180,281,162,261,149,232,147,201,156,170,171,139,214,83,258,41"/>
+<area shape="rect" id="Node000007" href="$hidden__markov__model_8cpp.html" title=" " alt="" coords="5,308,225,336"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="248,43,220,61,194,83,173,110,156,140,133,205,122,265,118,308,113,307,117,265,128,204,151,138,168,107,190,79,217,57,245,38"/>
+<area shape="rect" id="Node000008" href="$hidden__markov__model_8hpp.html" title=" " alt="" coords="177,232,397,260"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="290,48,290,232,284,232,284,48"/>
+<area shape="rect" id="Node000009" href="$recombination_8hpp.html" title=" " alt="" coords="778,81,945,109"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="362,27,779,80,778,86,361,33"/>
+<area shape="rect" id="Node000012" href="$unique__haplotype_8hpp.html" title=" " alt="" coords="398,157,586,184"/>
+<area shape="poly" id="edge22_Node000001_Node000012" title=" " alt="" coords="319,40,476,154,473,158,316,44"/>
+<area shape="rect" id="Node000003" href="$dosage__writer_8cpp.html" title=" " alt="" coords="252,384,415,411"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="336,351,336,383,331,383,331,351"/>
+<area shape="rect" id="Node000004" href="$imputation_8hpp.html" title=" " alt="" coords="439,384,583,411"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="381,340,481,381,479,386,378,344"/>
+<area shape="rect" id="Node000005" href="$imputation_8cpp.html" title=" " alt="" coords="365,459,508,487"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="489,425,451,461,448,457,485,421"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html" title=" " alt="" coords="532,459,636,487"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="537,421,573,457,569,461,533,424"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="306,272,328,306,323,309,301,275"/>
+<area shape="poly" id="edge10_Node000008_Node000004" title=" " alt="" coords="344,263,386,282,429,306,472,345,503,381,499,385,469,349,425,310,384,286,342,268"/>
+<area shape="poly" id="edge9_Node000008_Node000007" title=" " alt="" coords="243,269,147,310,144,305,241,264"/>
+<area shape="poly" id="edge12_Node000009_Node000004" title=" " alt="" coords="876,123,886,156,886,185,878,234,868,274,847,307,810,338,755,366,695,384,636,394,584,399,583,393,636,389,694,379,753,361,807,333,843,303,863,271,873,233,880,184,880,157,871,124"/>
+<area shape="rect" id="Node000010" href="$input__prep_8cpp.html" title=" " alt="" coords="656,308,796,336"/>
+<area shape="poly" id="edge13_Node000009_Node000010" title=" " alt="" coords="867,124,868,154,864,190,856,227,839,261,824,278,807,291,770,310,768,305,804,287,821,274,834,259,851,226,859,189,862,154,862,124"/>
+<area shape="rect" id="Node000011" href="$recombination_8cpp.html" title=" " alt="" coords="950,157,1115,184"/>
+<area shape="poly" id="edge14_Node000009_Node000011" title=" " alt="" coords="907,113,1003,154,1001,159,905,118"/>
+<area shape="poly" id="edge15_Node000009_Node000012" title=" " alt="" coords="781,115,559,159,558,153,780,110"/>
+<area shape="poly" id="edge16_Node000012_Node000002" title=" " alt="" coords="473,198,411,262,353,310,349,306,408,258,469,194"/>
+<area shape="poly" id="edge17_Node000012_Node000008" title=" " alt="" coords="442,192,325,234,323,229,440,187"/>
+<area shape="rect" id="Node000013" href="$input__prep_8hpp.html" title=" " alt="" coords="472,232,614,260"/>
+<area shape="poly" id="edge18_Node000012_Node000013" title=" " alt="" coords="512,196,536,230,532,233,508,199"/>
+<area shape="rect" id="Node000014" href="$unique__haplotype_8cpp.html" title=" " alt="" coords="637,232,825,260"/>
+<area shape="poly" id="edge21_Node000012_Node000014" title=" " alt="" coords="550,187,689,229,688,234,549,192"/>
+<area shape="poly" id="edge19_Node000013_Node000004" title=" " alt="" coords="540,275,516,384,511,383,534,274"/>
+<area shape="poly" id="edge20_Node000013_Node000010" title=" " alt="" coords="591,264,694,305,692,310,589,269"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="unique_haplotype_block::unique_map" name="unique_haplotype_block::unique_map">
+<area shape="rect" id="Node000001" title="Get the mapping from haplotypes to unique columns." alt="" coords="547,100,727,145"/>
+<area shape="rect" id="Node000002" href="$input__prep_8cpp.html#a31b6160b69f849225374f36e12dab454" title="Load and process reference haplotypes from an MVCF file." alt="" coords="302,14,499,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="582,95,498,55,465,45,466,40,500,51,584,90"/>
+<area shape="rect" id="Node000005" href="$input__prep_8cpp.html#ae6103761cf74447b4a53fd6a17de447c" title="Loads reference haplotypes using an older recombination&#45;based approach." alt="" coords="302,65,499,110"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="532,110,499,105,500,100,533,104"/>
+<area shape="rect" id="Node000006" href="$classhidden__markov__model.html#aa0e5498c4f7f7ed9f11d1f81e3335fc6" title="Performs a backward traversal over reference haplotypes to compute posterior probabilities." alt="" coords="316,135,485,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="533,140,486,147,485,142,532,135"/>
+<area shape="rect" id="Node000007" href="$classhidden__markov__model.html#aa1459d3b24365049cb34ea8f40ff828d" title="Performs a forward traversal over reference haplotypes for a given target haplotype." alt="" coords="316,204,485,249"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="582,155,500,194,471,206,469,201,498,189,579,150"/>
+<area shape="rect" id="Node000003" href="$classimputation.html#a7b5222272b8a616e387a991194235d62" title="Perform genotype imputation for a given genomic region." alt="" coords="108,5,254,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="287,30,254,30,254,25,287,25"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,14,60,42"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="92,30,60,30,60,25,92,25"/>
+</map>

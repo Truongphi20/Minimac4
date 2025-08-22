@@ -1,0 +1,14 @@
+<map id="unique_haplotype_block::deserialize" name="unique_haplotype_block::deserialize">
+<area shape="rect" id="Node000001" title="Deserialize a unique haplotype block from an input stream (m3vcf format)." alt="" coords="547,54,727,99"/>
+<area shape="rect" id="Node000002" href="$input__prep_8cpp.html#a6b95ba39faa3a2487a7010a060dbad2a" title="Converts an old M3VCF file (v1/v2) to a newer VCF&#45;like format (MVCFv3.0)." alt="" coords="108,5,254,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="531,59,499,54,369,38,253,27,254,22,369,33,500,49,532,54"/>
+<area shape="rect" id="Node000004" href="$input__prep_8cpp.html#a31b6160b69f849225374f36e12dab454" title="Load and process reference haplotypes from an MVCF file." alt="" coords="302,63,499,90"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="532,79,500,79,500,74,532,74"/>
+<area shape="rect" id="Node000006" href="$input__prep_8cpp.html#ae6103761cf74447b4a53fd6a17de447c" title="Loads reference haplotypes using an older recombination&#45;based approach." alt="" coords="302,114,499,159"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="533,106,492,116,491,111,532,100"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,36,60,64"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,39,61,47,60,42,96,34"/>
+<area shape="rect" id="Node000005" href="$classimputation.html#a7b5222272b8a616e387a991194235d62" title="Perform genotype imputation for a given genomic region." alt="" coords="108,57,254,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="287,81,254,81,254,76,286,75"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="92,64,60,58,61,52,93,59"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="prog_args" name="prog_args">
+<area shape="rect" id="Node000001" title="Stores and manages program arguments for Minimac4." alt="" coords="24,81,110,109"/>
+<area shape="rect" id="Node000002" href="$classgetopt__wrapper.html" title="A wrapper for parsing command&#45;line options using getopt and getopt_long." alt="" coords="5,5,129,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,49,70,81,64,81,64,49"/>
+</map>

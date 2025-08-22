@@ -1,0 +1,5 @@
+<map id="unique_haplotype_block::deserialize" name="unique_haplotype_block::deserialize">
+<area shape="rect" id="Node000001" title="Deserialize a unique haplotype block from an input stream (m3vcf format)." alt="" coords="5,5,185,50"/>
+<area shape="rect" id="Node000002" href="$classunique__haplotype__block.html#ad3b893b578cd0a31bad9b21fa6fee652" title="Clears all data stored in the haplotype block." alt="" coords="233,5,412,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="185,25,217,25,217,30,185,30"/>
+</map>

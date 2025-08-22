@@ -1,0 +1,5 @@
+<map id="sparse_ref_variant" name="sparse_ref_variant">
+<area shape="rect" id="Node000001" title="Represents a reference variant with sparse allele information." alt="" coords="7,81,150,109"/>
+<area shape="rect" id="Node000002" href="$structreference__site__info.html" title="Stores information about a site in the reference dataset." alt="" coords="5,5,152,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="81,49,81,81,76,81,76,49"/>
+</map>

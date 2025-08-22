@@ -1,0 +1,7 @@
+<map id="reference_site_info" name="reference_site_info">
+<area shape="rect" id="Node000001" title="Stores information about a site in the reference dataset." alt="" coords="82,5,228,33"/>
+<area shape="rect" id="Node000002" href="$structreference__variant.html" title="Extends reference_site_info to include genotype data and allele counts." alt="" coords="5,81,142,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,46,90,83,86,79,127,42"/>
+<area shape="rect" id="Node000003" href="$structsparse__ref__variant.html" title="Represents a reference variant with sparse allele information." alt="" coords="166,81,309,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,42,225,79,221,83,179,46"/>
+</map>

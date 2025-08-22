@@ -1,0 +1,18 @@
+<map id="unique_haplotype_block::variant_size" name="unique_haplotype_block::variant_size">
+<area shape="rect" id="Node000001" title="Get the number of variants compressed in this block." alt="" coords="782,65,961,110"/>
+<area shape="rect" id="Node000002" href="$input__prep_8cpp.html#ab5bd937ac31def9857144bb969f642b3" title="Compress a haplotype reference panel into blocks and write to an output file." alt="" coords="108,5,261,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="776,64,733,56,604,41,475,33,261,29,262,24,475,27,605,36,734,50,777,59"/>
+<area shape="rect" id="Node000004" href="$classhidden__markov__model.html#aa1459d3b24365049cb34ea8f40ff828d" title="Performs a forward traversal over reference haplotypes for a given target haplotype." alt="" coords="559,65,729,110"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="766,90,729,90,729,85,766,85"/>
+<area shape="rect" id="Node000005" href="$classunique__haplotype__block.html#aad2e7d5ff6d7e6e0860edb6521fc033c" title="Trims variants outside a specified genomic range." alt="" coords="554,135,734,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="782,118,721,137,719,131,780,113"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,48,60,76"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,51,61,59,60,54,92,46"/>
+<area shape="rect" id="Node000006" href="$input__prep_8cpp.html#a31b6160b69f849225374f36e12dab454" title="Load and process reference haplotypes from an MVCF file." alt="" coords="309,83,506,111"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="539,133,465,114,466,109,540,128"/>
+<area shape="rect" id="Node000008" href="$input__prep_8cpp.html#ae6103761cf74447b4a53fd6a17de447c" title="Loads reference haplotypes using an older recombination&#45;based approach." alt="" coords="309,135,506,179"/>
+<area shape="poly" id="edge8_Node000005_Node000008" title=" " alt="" coords="539,160,507,160,507,154,539,154"/>
+<area shape="rect" id="Node000007" href="$classimputation.html#a7b5222272b8a616e387a991194235d62" title="Perform genotype imputation for a given genomic region." alt="" coords="111,75,258,119"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="294,100,258,100,258,94,294,94"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="95,79,59,71,61,66,96,74"/>
+</map>

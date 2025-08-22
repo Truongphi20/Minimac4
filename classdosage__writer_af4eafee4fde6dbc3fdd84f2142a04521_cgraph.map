@@ -1,0 +1,11 @@
+<map id="dosage_writer::write_dosages" name="dosage_writer::write_dosages">
+<area shape="rect" id="Node000001" title="Write imputed dosages and observed genotypes to output files." alt="" coords="5,105,160,150"/>
+<area shape="rect" id="Node000002" href="$classreduced__haplotypes.html#a60e35764066ee20b0bc825482d956dc1" title=" " alt="" coords="224,5,376,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,103,207,60,220,54,222,59,209,65,125,107"/>
+<area shape="rect" id="Node000003" href="$classfull__dosages__results.html#a4f2abb43322a58e7a797aee65674d0d6" title="Returns the dimensions of the main dosages matrix." alt="" coords="223,75,377,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,114,207,107,208,113,160,119"/>
+<area shape="rect" id="Node000004" href="$classreduced__haplotypes.html#a84d77aa694b17ecfe412d8f4a4e1614b" title=" " alt="" coords="208,143,392,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="160,135,192,140,192,145,160,141"/>
+<area shape="rect" id="Node000005" href="$classreduced__haplotypes.html#a5b11aec30fdec4903d307720f3c378dd" title="Returns the total number of variants across all blocks." alt="" coords="224,195,376,239"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="135,148,209,180,224,186,222,191,207,185,133,153"/>
+</map>
