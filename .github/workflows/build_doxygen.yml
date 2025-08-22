@@ -1,4 +1,4 @@
-name: Build and Push DevContainer Image
+name: Build Doxygen
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ jobs:
 
     permissions:
       packages: write
-      contents: read
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -27,9 +27,18 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build & Push devcontainer image
+      - name: Build Doxygen
         uses: devcontainers/ci@v0.2
         with:
           imageName: ${{ env.IMAGE_NAME }}
           push: always
-          runCmd: echo "run post command" && bash .devcontainer/postCommand.sh
+          runCmd: |
+            echo "run post command" && bash .devcontainer/postCommand.sh
+            echo "build docs" && conda run -n minimac4-dev bash -c "cmake -S . -B build -DTEST=OFF -DDOXY=ON && cmake --build build && touch docs/html/.nojekyll"
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: docs/html
