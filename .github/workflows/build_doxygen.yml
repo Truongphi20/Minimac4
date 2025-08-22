@@ -1,0 +1,44 @@
+name: Build Doxygen
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    permissions:
+      packages: write
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set IMAGE_NAME env
+        run: |
+          USERNAME=$(echo "${GITHUB_REPOSITORY_OWNER}" | tr '[:upper:]' '[:lower:]')
+          echo "IMAGE_NAME=ghcr.io/$USERNAME/minimac4-dev" >> $GITHUB_ENV
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build Doxygen
+        uses: devcontainers/ci@v0.2
+        with:
+          imageName: ${{ env.IMAGE_NAME }}
+          push: always
+          runCmd: |
+            echo "run post command" && bash .devcontainer/postCommand.sh
+            echo "build docs" && conda run -n minimac4-dev bash -c "cmake -S . -B build -DTEST=OFF -DDOXY=ON && cmake --build build && touch docs/html/.nojekyll"
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: docs/html
