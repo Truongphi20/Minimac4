@@ -5,7 +5,7 @@ channels:
 dependencies:
   - bioconda::savvy=2.1.0
   - conda-forge::xz=5.8.1
-  - conda-forge::zlib
-  - bioconda::bcftools=1.22
-  - conda-forge::doxygen=1.9.5
-  - anaconda::graphviz
+  - conda-forge::zlib=1.2.13
+  - bioconda::bcftools=1.21
+  - conda-forge::doxygen=1.13.2
+  - anaconda::graphviz=12.2.1
