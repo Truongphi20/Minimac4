@@ -26,7 +26,7 @@ jobs:
         uses: devcontainers/ci@v0.2
         with:
           imageName: minimac4-dev
-          push: always
+          push: never
           runCmd: echo "run post command" && bash .devcontainer/postCommand.sh
 
       
